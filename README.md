@@ -2,10 +2,10 @@
 
 This is a school project of creating a webpage with a search function. The oracle database is on the school server.
 step1: login the server: ssh h_w85@newfirebird.cs.txstate.edu 
-step2: upload source code and data file(expdat.dmp)
+step2: upload source code and data file(expdat.dmp), use sqlplus H_W/PASS@CSDBORA to check if data is available
 step3: To get the sampe3 as example form: " cp "$ORACLE_HOME"/precomp/demo/proc MYPATH
 step 4: Modify the database login info in the sample3
-step 5: Compile the sample3 file: make -f demo_proc64.mk sample3
+step 5: Compile the sample3 file: make -f demo_proc64.mk sample3 , use ./sample to test if the result is correct
 step 6: Follow the below steps and config the program.
 
 
