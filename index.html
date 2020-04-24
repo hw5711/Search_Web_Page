@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>Search assignment</title>
+<p>This is h_w homework 2 </p>
+<meta charset="utf-8">
+<style>
+.error {color: #FF0000;}
+</style>
+</head>
+
+<body style="background-color:#f1f1f1"> 
+<h2>Choose a search type:</h2>
+<ul style="list-style-type:none;">
+
+<form name="searchDpt" action="oracle.pl" method="GET">
+<li>1. Search with department number OR name.</li>
+<br>
+    Department Number: <input type="text" name="departmentNumber" style="margin-left: 1em;"> 
+    <br><br>
+    Department Name:<input type="text" name="departmentName"  style="margin-left: 1em;">
+    <br><br>
+    <input type="submit" name="departmentButton">
+</form>
+<br><br>
+<form name="searchSalary" action="oracle.pl" method="GET">
+<li>2. Search with two salary values</li>
+<br>
+    Salary from: <input type="number" name="salaryLow" style="margin-left: 1em;">
+    <br><br>
+    Salary to:<input type="number" name="salaryHigh" style="margin-left: 1em;">
+    <br><br>
+    <input type="submit" name="salaryButton">
+</form>
+<br><br>
+<form  name="searchCommission" action="oracle.pl" method="GET">
+<li>3. Search with enter two commission values</li>
+<br>
+    Commission from: <input type="number" name="commissionLow" style="margin-left: 1em;">
+    <br><br>
+    Commission to:<input type="number" name="commissionHigh" style="margin-left: 1em;">
+    <br><br>
+    <input type="submit" name="commissionButton">
+</form>
+</ul>
+
+<frameset framepacing="0" border="0" rows="30%,*">
+        <frame src="http://newfirebird.cs.txstate.edu/~h_w85/demo/proc/unix-version/html/title.html" name="title" frameborder="No" border="0" scro$
+        <frame src="http://newfirebird.cs.txstate.edu/~h_w85/cgi-bin/home.pl" name="main" frameborder="no" border="0" scrolling="yes">
+</frameset>
+</body>
+</html>
